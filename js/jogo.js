@@ -1,5 +1,3 @@
- (function() {
-	 
 	var tiles = [], resposta = [];
 	var startScreen = document.querySelector("#startScreen");
 		startScreen.addEventListener("click",startGame,false);
@@ -123,4 +121,3 @@
 	}
 
 	inicializar();
- }());
